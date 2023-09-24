@@ -30,3 +30,7 @@ Route::put('/todo/{todo}/update',[TodoController::class,'update'])->name('todo.u
 Route::delete('/todo/{todo}/destroy',[TodoController::class,'destroy'])->name('todo.destroy');
 
 
+
+
+
+
